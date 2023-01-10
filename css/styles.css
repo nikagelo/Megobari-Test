@@ -1,3 +1,12 @@
+/* Global Styles */
+body {
+  font-family: "Mont ExtraLight DEMO";
+}
+.container {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+}
 /* Promo Styles */
 .promo {
   display: flex;
@@ -14,19 +23,36 @@
   margin-left: 20px;
 }
 /* Naviagation Styles */
-.container {
-  max-width: 1300px;
-  width: 100%;
-  margin: 0 auto;
+.nav-wrapper {
+  background-color: #f5fdffcc;
+  box-shadow: 0px 2px 4px 0px #0000000f;
 }
+
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 67px;
-  background-color: #f5fdffcc;
-  box-shadow: 0px 2px 4px 0px #0000000f;
 }
-.nav-a {
+#nav-a a {
   margin-left: 60px;
+  color: #4b6693;
+  text-decoration: none;
+}
+#nav-a a:hover {
+  color: #11346f;
+  font-family: "Mont Heavy DEMO";
+}
+.p-button--positive.is-dark {
+  background-color: #197aff;
+  margin-bottom: 0;
+  border-radius: 60px;
+  padding: 11px 38px;
+  border: none;
+  font-size: 14px;
+  font-family: "Mont Heavy DEMO";
+  text-transform: uppercase;
+}
+.p-button--positive.is-dark:hover {
+  background-color: #197aff;
 }
