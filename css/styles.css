@@ -56,3 +56,76 @@ nav {
 .p-button--positive.is-dark:hover {
   background-color: #197aff;
 }
+/*Massager Info Section Styles */
+.massagerInfo {
+  display: flex;
+  flex-direction: column;
+
+  max-width: 935px;
+  margin-right: 0;
+}
+.massagerInfo p {
+  font-family: "Mont Heavy DEMO";
+  color: #213786;
+  font-size: 42px;
+  margin-right: 8px;
+  margin-bottom: 0;
+}
+.massagerInfo div {
+  display: flex;
+  justify-content: end;
+  margin-top: 15px;
+}
+.massager {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 63px;
+}
+.massagerTxt {
+  font-weight: 600;
+  font-size: 18px;
+  color: #262626;
+}
+.massageTypes {
+  display: flex;
+  align-items: center;
+  max-width: 720px;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #f3f6fb;
+  border: 1px solid #aeccff80;
+  border-radius: 10px;
+}
+.type {
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.type ul {
+  margin-left: 15px;
+  margin-bottom: 15px;
+  padding-left: 0;
+}
+.type ul li {
+  list-style: disc;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  color: #262626;
+}
+.type span {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-weight: 800;
+  font-size: 14px;
+  color: #11346f;
+}
+.border {
+  width: 1px;
+  height: 117px;
+  background-color: #cee2ff;
+  margin: 0 15px;
+}
