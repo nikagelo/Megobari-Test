@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "Mont ExtraLight DEMO";
+  src: url("../fonts/Mont-ExtraLightDEMO.eot");
+  src: url("../fonts/Mont-ExtraLightDEMO.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Mont-ExtraLightDEMO.woff2") format("woff2"),
+    url("../fonts/Mont-ExtraLightDEMO.woff") format("woff"),
+    url("../fonts/Mont-ExtraLightDEMO.svg#Mont-ExtraLightDEMO") format("svg");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Mont Heavy DEMO";
+  src: url("../fonts/Mont-HeavyDEMO.eot");
+  src: url("../fonts/Mont-HeavyDEMO.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Mont-HeavyDEMO.woff2") format("woff2"),
+    url("../fonts/Mont-HeavyDEMO.woff") format("woff"),
+    url("../fonts/Mont-HeavyDEMO.svg#Mont-HeavyDEMO") format("svg");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
