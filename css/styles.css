@@ -7,6 +7,12 @@ body {
   width: 100%;
   margin: 0 auto;
 }
+.marginAuto {
+  margin: 0 auto;
+}
+.flex {
+  display: flex;
+}
 /* Promo Styles */
 .promo {
   display: flex;
@@ -96,6 +102,8 @@ nav {
   background-color: #f3f6fb;
   border: 1px solid #aeccff80;
   border-radius: 10px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 .type {
   padding-top: 15px;
@@ -121,6 +129,8 @@ nav {
   margin-bottom: 10px;
   font-weight: 800;
   font-size: 14px;
+  line-height: 20px;
+  font-family: "Mont Heavy DEMO";
   color: #11346f;
 }
 .border {
@@ -128,4 +138,95 @@ nav {
   height: 117px;
   background-color: #cee2ff;
   margin: 0 15px;
+}
+.typesAndPicWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.buyWrapper {
+  max-width: 400px;
+}
+.getNow {
+  padding: 19px 58px;
+  background: #197aff;
+  border-radius: 60px;
+  border: none;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+.getNow:hover {
+  background: #197aff;
+}
+#p-button--positive {
+  margin-right: unset;
+  margin: 0 auto;
+}
+#p-button--positive span {
+  color: #197aff;
+}
+.bundles {
+  display: flex;
+  padding: 10px 28px;
+  gap: 10px;
+  background: rgba(77, 145, 207, 0.15);
+  box-shadow: 0px 0px 14px #ffffff;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 14px;
+  text-align: center;
+  color: #000000;
+  border: none;
+}
+.bundles:hover {
+  background: rgba(77, 145, 207, 0.15);
+}
+.buyAndReviewWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.review {
+  background: rgba(234, 242, 255, 0.1);
+  border: 1px solid rgba(174, 204, 255, 0.5);
+  border-radius: 110px;
+  padding: 8px 11px;
+  max-width: 400px;
+}
+.review div p {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 17px;
+  color: #000000;
+
+  margin-bottom: 5px;
+}
+.reviewPoints {
+  padding-left: 10px;
+}
+.buyerInfo {
+  align-items: center;
+}
+.buyerInfo > span {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 17px;
+  color: #787979;
+  margin-left: 5px;
+  margin-right: 32px;
+}
+.verified {
+  display: flex;
+  align-items: center;
+}
+.verified span {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 17px;
+  color: #787979;
+  margin-left: 5px;
 }
