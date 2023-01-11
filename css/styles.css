@@ -13,6 +13,9 @@ body {
 .flex {
   display: flex;
 }
+.spaceBtw {
+  justify-content: space-between;
+}
 /* Promo Styles */
 .promo {
   display: flex;
@@ -229,4 +232,33 @@ nav {
   line-height: 17px;
   color: #787979;
   margin-left: 5px;
+}
+/* Cards Section Styles */
+.cardsTipsWrapper {
+  margin-top: 34px;
+  padding: 24px 0;
+  background: #11346f;
+  backdrop-filter: blur(2px);
+}
+.tipWrapper {
+  align-items: center;
+}
+.tip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  background-color: #ffffff;
+  margin-right: 15px;
+}
+.tipWrapper span {
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 30px;
+  color: #ffffff;
+}
+.cardsWrapper {
+  background: linear-gradient(118.72deg, #aeccff -18.14%, #197aff 165.34%);
 }
