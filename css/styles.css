@@ -1,6 +1,6 @@
 /* Global Styles */
 body {
-  font-family: "Mont ExtraLight DEMO";
+  font-family: "Mont";
 }
 .container {
   max-width: 1300px;
@@ -13,9 +13,19 @@ body {
 .flex {
   display: flex;
 }
+.jstfC {
+  justify-content: center;
+}
 .spaceBtw {
   justify-content: space-between;
 }
+.alignC {
+  align-items: center;
+}
+.clmn {
+  flex-direction: column;
+}
+
 /* Promo Styles */
 .promo {
   display: flex;
@@ -261,4 +271,243 @@ nav {
 }
 .cardsWrapper {
   background: linear-gradient(118.72deg, #aeccff -18.14%, #197aff 165.34%);
+}
+.offers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 29px;
+  margin-bottom: 31px;
+}
+.offers span:first-child {
+  font-weight: 700;
+  font-size: 37px;
+  line-height: 49px;
+  color: #11346f;
+  margin-bottom: 10px;
+}
+.offers span:nth-child(2) {
+  font-weight: 900;
+  font-size: 37px;
+  line-height: 50px;
+  color: #ffffff;
+}
+.cardAndImgWrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 54px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(246, 248, 252, 0.7);
+  border: 1.5px solid #197aff;
+  border-radius: 18px;
+  width: 31%;
+}
+.card:hover {
+  background: linear-gradient(180deg, #ffffff 0%, #d7e6ff 100%);
+}
+.card > img {
+  margin-top: -15px;
+  margin-bottom: 63px;
+}
+.prices {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-right: 10px;
+  padding-left: 18px;
+}
+.prices > span:first-child,
+.scratchTxtWrapper {
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 37px;
+  color: #11346f;
+}
+.prices > span:nth-child(2),
+.pricesCard div span:nth-child(1) {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 43px;
+  text-align: center;
+  color: #11346f;
+  margin-top: 17px;
+  margin-bottom: 5px;
+}
+
+.prices > span:nth-child(3),
+.pricesCard div span:nth-child(2) {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+  color: #11346f;
+}
+.moneyBack {
+  display: flex;
+  align-items: center;
+  margin-top: 33px;
+  margin-bottom: 40px;
+}
+.moneyBack > span {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: #11346f;
+  margin-left: 5px;
+}
+.afterpay {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.afterpay span {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: capitalize;
+  color: #11346f;
+}
+.magicBtn {
+  text-transform: uppercase;
+  padding: 15px 80px;
+  background: #197aff;
+  box-shadow: 0px 7px 14px rgba(25, 122, 255, 0.5);
+  border-radius: 60px;
+  border: none;
+  margin: 60px 0px 30px 0px;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+.magicBtn:hover {
+  background: #197aff;
+}
+.payments {
+  margin-bottom: 26px;
+}
+.payments a {
+  margin-left: 10px;
+}
+.payments a:first-child {
+  margin-left: unset;
+}
+#cardImgMargin {
+  margin-bottom: 0;
+}
+.popular {
+  background: #57ac73;
+  border-radius: 50px;
+  padding: 6px 16px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.popularWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: -60px;
+}
+.blue {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+  color: #197aff;
+}
+.scratchTxtWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.scratchTxtWrapper > img {
+  margin-right: -100px;
+}
+.pricesCard > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.oldPrice {
+  margin-left: 23px;
+}
+.newPrice {
+  margin-bottom: 11px;
+}
+#oldPrice span {
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 42px;
+  text-align: center;
+  text-decoration: line-through;
+  color: #93a2bb;
+}
+.offWrapper {
+  border: 1px solid #aeccff;
+  border-radius: 19px;
+  margin-top: 17px;
+}
+.saveUp {
+  background: #bff5be;
+  border: 1px solid #99d298;
+  border-radius: 18px;
+  padding: 14px 12px 13px 23px;
+  z-index: 1;
+}
+.saveUp span {
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 16px;
+  color: #11346f;
+}
+.money {
+  margin-left: -25px;
+  display: flex;
+  align-items: center;
+  background: #f0f6ff;
+  border: 1px solid #aeccff;
+  border-radius: 18px;
+  height: 48px;
+  padding: 14px 16px 13px 30px;
+}
+.money span {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: #11346f;
+}
+.ordersAtPrice {
+  margin: 10px;
+  margin-bottom: 15px;
+}
+.ordersAtPrice span {
+  font-weight: 800;
+  font-size: 13px;
+  line-height: 17px;
+  color: #11346f;
+}
+.secondMagicBtn {
+  margin-top: 10px;
+}
+.value {
+  background: #ac5780;
+  border-radius: 50px;
+  padding: 6px 16px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.thirdCardWrapper {
+  margin-top: -5px;
 }
