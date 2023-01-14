@@ -25,7 +25,7 @@ body {
 .clmn {
   flex-direction: column;
 }
-.hidden {
+#hidden {
   display: none;
 }
 /* Promo Styles */
@@ -559,12 +559,14 @@ nav {
   color: #3a3075;
   padding: 7px 20px;
 }
-.reviews {
+.reviews ul {
   margin-bottom: 62px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 30px;
+  margin-left: 0;
+  padding: 0;
 }
 .reviewCard {
   background: #ffffff;
