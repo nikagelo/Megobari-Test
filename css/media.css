@@ -1,0 +1,63 @@
+@media screen and (min-width: 300px) and (max-width: 1035px) {
+  .container {
+    max-width: 1035px;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 17px;
+  }
+  #nav-a {
+    display: none;
+  }
+  .orderNow button {
+    display: none;
+  }
+  nav {
+    justify-content: center;
+  }
+  .massagerInfo p {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30px;
+    max-width: 215px;
+  }
+  .massagerInfo div {
+    justify-content: start;
+  }
+  .massagerInfo div img {
+    max-width: 100px;
+    margin-top: -20px;
+  }
+  .massager {
+    margin-top: 0;
+    padding-top: 10px;
+    align-items: flex-end;
+  }
+  .massager > img {
+    transform: scale(1, -1);
+  }
+  .massagerTxt p {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 8px;
+  }
+  .massagerResp {
+    background-color: #f5fdff;
+  }
+  .massageTypes {
+    background-color: transparent;
+    border: none;
+  }
+  .type ul {
+    display: none;
+  }
+  .type span {
+    text-align: center;
+  }
+  .buyAndReviewWrapper {
+    flex-direction: column;
+  }
+  #p-button--positive {
+    margin: 16px auto;
+  }
+}
