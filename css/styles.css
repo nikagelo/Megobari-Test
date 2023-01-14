@@ -25,7 +25,9 @@ body {
 .clmn {
   flex-direction: column;
 }
-
+.hidden {
+  display: none;
+}
 /* Promo Styles */
 .promo {
   display: flex;

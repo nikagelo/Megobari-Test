@@ -4,6 +4,7 @@
     width: 100%;
     margin: 0 auto;
     padding-left: 17px;
+    padding-right: 14px;
   }
   #nav-a {
     display: none;
@@ -40,6 +41,7 @@
     font-size: 14px;
     line-height: 22px;
     margin-top: 8px;
+    text-align: center;
   }
   .massagerResp {
     background-color: #f5fdff;
@@ -59,5 +61,34 @@
   }
   #p-button--positive {
     margin: 16px auto;
+  }
+  .tipWrapper {
+    flex-direction: column;
+  }
+  .tipWrapper span {
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 7px;
+  }
+  .tipWrapper:last-child {
+    display: none;
+  }
+  .hidden {
+    display: block;
+  }
+  .hiddenResp {
+    display: none;
+  }
+  .cardAndImgWrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .card {
+    margin-top: 41px;
+    width: unset;
+  }
+  .card > img {
+    margin-top: 27px;
   }
 }
