@@ -610,3 +610,81 @@ nav {
 .starsPdng {
   padding-left: 13px;
 }
+/* FAQ Section Styles */
+.FAQWrapper {
+  background: #11346f;
+}
+.FAQTitle {
+  margin-top: 34px;
+  margin-bottom: 64px;
+  max-width: 446px;
+}
+.FAQTitle span {
+  font-weight: 700;
+  font-size: 37px;
+  line-height: 49px;
+  color: #ffffff;
+}
+.FAQTitleImgDiv {
+  display: flex;
+  justify-content: end;
+}
+
+.FAQTitleImgDiv img {
+  max-width: 227px;
+}
+.FAQImgDiv {
+  margin-right: 84px;
+  padding-bottom: 69px;
+}
+.FAQAndImgWrapper {
+  display: flex;
+}
+.accordionBtnStyle {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+.accordionPStyle {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #aeccff;
+  padding: 22px 0 19px 0;
+}
+.accordionDivWrapper {
+  border: 1px solid #31548e;
+  border-radius: 9px;
+  margin-bottom: 16px;
+}
+.p-accordion__panel[aria-hidden="false"] {
+  padding-left: 18px;
+}
+.p-accordion__group + .p-accordion__group::after {
+  display: none;
+}
+.p-accordion__tab[aria-expanded="true"]:hover {
+  background-color: #194081;
+}
+.p-accordion__heading > .p-accordion__tab:hover {
+  background-color: #194081;
+}
+.p-accordion__heading {
+  background-color: #194081;
+}
+.seeAll {
+  background-color: transparent;
+  border: none;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 20px;
+  color: #f6f8fc;
+}
+
+.seeAll:hover {
+  background-color: transparent;
+}
