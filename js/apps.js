@@ -54,3 +54,14 @@ let accordions = document.querySelectorAll(".p-accordion");
 for (let i = 0, l = accordions.length; i < l; i++) {
   setupAccordion(accordions[i]);
 }
+
+// Pagination JS
+let pagination = document.querySelectorAll(".pagination");
+let cardOne = document.getElementById("pgnOne");
+let cardtwo = document.getElementById("pgnTwo");
+let cardthree = document.getElementById("pgnThree");
+let cardFour = document.getElementById("pgnFour");
+
+function removeActive() {
+  cardOne.classList.remove("isActive");
+}

@@ -36,6 +36,12 @@
   .massager > img {
     transform: scale(1, -1);
   }
+  .massagerImgDiv {
+    position: static;
+  }
+  .massagerImgDiv img {
+    height: 200px;
+  }
   .massagerTxt p {
     font-weight: 700;
     font-size: 14px;
@@ -75,7 +81,7 @@
     display: none;
   }
   #hidden {
-    display: block;
+    display: flex;
   }
   .hiddenResp {
     display: none;
@@ -136,9 +142,47 @@
     width: 100%;
     padding-bottom: 26px;
   }
-  .test {
+  .FAQImgDiv img {
+    width: 100%;
+  }
+  .seeAllFAQ {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  /* .p-pagination__items {
+    display: flex;
+    justify-content: center;
+  }
+  .p-pagination__link,
+  [aria-current="page"].p-pagination__link {
+    background-color: #cbced6;
+    border-radius: 100%;
+    width: 14px;
+    height: 14px;
+    margin-bottom: 0;
+  }
+  .is-active.p-pagination__link,
+  .p-pagination__link:hover {
+    background-color: blue;
+  } */
+
+  .paginationWrapper {
+    margin-bottom: 14px;
+    justify-content: center;
+  }
+  .pagination {
+    width: 14px;
+    height: 14px;
+    background-color: #cbced6;
+    border-radius: 100%;
+    margin-left: 10px;
+  }
+  .pagination:first-child {
+    margin-left: 0;
+  }
+  .pagination:hover,
+  .isActive {
+    background: #197aff;
   }
 }

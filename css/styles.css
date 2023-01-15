@@ -97,6 +97,11 @@ nav {
   justify-content: end;
   margin-top: 15px;
 }
+.massagerImgDiv {
+  right: 0;
+  position: absolute;
+  top: 50px;
+}
 .massager {
   display: flex;
   align-items: flex-start;
