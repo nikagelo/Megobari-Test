@@ -78,6 +78,9 @@ nav {
   background-color: #197aff;
 }
 /*Massager Info Section Styles */
+.massagerInfoWrapper {
+  position: relative;
+}
 .massagerInfo {
   display: flex;
   flex-direction: column;
